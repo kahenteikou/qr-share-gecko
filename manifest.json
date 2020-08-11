@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "QR Share for Flast",
+    "version": "0.0.1",
+    "description": "QR Code Share for Flast on Gecko",
+    "browser_action": {
+        "default_title": "QR Share",
+         "default_popup": "popup/popup.html"
+    },
+    "permissions": [
+
+        "activeTab",
+        "contextMenus",
+        "tabs"
+    ]
+}
